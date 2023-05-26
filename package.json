@@ -1,0 +1,10 @@
+{
+  "name": "axios-mock-demo",
+  "version": "1.0.0",
+  "description": "Smol app to demo axios-mock-adapter and try stuff out",
+  "main": "index.js",
+  "repository": "https://github.com/abadfish/axios-mock-demo",
+  "author": "abadfish <kirsten.ofarrell@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
