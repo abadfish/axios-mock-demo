@@ -2,7 +2,8 @@
   "test": ".*.ts$",
   "jsc": {
     "parser": {
-      "syntax": "typescript",
+      "syntax": "ecmascript",
+      "jsx": true,
       "tsx": true,
       "decorators": true,
       "dynamicImport": true

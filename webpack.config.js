@@ -24,7 +24,7 @@ module.exports = {
 				},
 			},
 			{
-				test: /\.tsx?$/,
+				test: /\.ts|tsx?$/,
 				use: "ts-loader",
 				exclude: /node_modules/,
 			},
@@ -33,6 +33,8 @@ module.exports = {
 				use: ["style-loader", "css-loader"],
 			}
 		]
+	},
+	resolve: {
+		extensions: [".tsx", ".ts", ".js", ".json", ".wasm"],
 	}
-
 }

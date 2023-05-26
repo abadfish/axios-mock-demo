@@ -1,13 +1,13 @@
 {
 	"compilerOptions": {
 		"module": "commonjs",
-		"noImplicitAny": true,
+		"noImplicitAny": false,
 		"esModuleInterop": true,
 		"jsx": "react",
 		"preserveConstEnums": true,
 		"sourceMap": true,
-		"forceConsistentCasingInFileNames": true
+		"forceConsistentCasingInFileNames": true,
 	},
-	"include": ["src"],
+	"include": ["src/*"],
 	"exclude": ["node_modules"]
 }
