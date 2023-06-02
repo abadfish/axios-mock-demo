@@ -6,8 +6,8 @@
 		"jsx": "react",
 		"preserveConstEnums": true,
 		"sourceMap": true,
-		"forceConsistentCasingInFileNames": true,
+		"strict": false
 	},
-	"include": ["src/*"],
+	"include": ["src/*", "src/test/mockHttpClient.ts"],
 	"exclude": ["node_modules"]
 }
